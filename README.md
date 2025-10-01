@@ -1,16 +1,72 @@
-# React + Vite
+# CineScope
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineScope is a dynamic and user-friendly movie listing web application that allows movie enthusiasts to effortlessly explore a vast collection of films. With an intuitive interface and a comprehensive range of features, CineScope enables users to browse, search, and discover movies easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## React Compiler
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Getting Started](#getting-started)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * [Installation](#installation)
+  * [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* **Extensive Movie Collection**: Access a diverse database of movies across genres, years, and ratings.
+* **Search and Filter**: Effortlessly search for specific movies and apply filters for a refined browsing experience.
+* **Movie Details & Reviews**: View in-depth information about each movie, including synopsis, cast, ratings, trailers, and user or critic reviews.
+* **Responsive Design**: Enjoy seamless exploration on various devices with a responsive and user-friendly design.
+
+---
+
+## Tech Stack
+
+* **Frontend**: React, Vite
+* **Styling**: CSS
+* **State Management**: React Context API
+* **API Integration**: Axios
+* **Linting**: ESLint
+
+---
+
+## Getting Started
+
+### Installation
+
+To run CineScope locally:
+
+```bash
+git clone https://github.com/Gautam2920/CineScope.git
+cd CineScope
+npm install
+npm run dev
+```
+
+### Usage
+
+* Access the CineScope app via the browser after installation.
+* Explore movies, search, filter, view detailed info, and read reviews.
+
+---
+
+## Contributing
+
+Contributions, suggestions, and feedback are welcome! To contribute to CineScope:
+
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/improvement`).
+3. Make changes, commit, and push to the branch.
+4. Create a Pull Request.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
