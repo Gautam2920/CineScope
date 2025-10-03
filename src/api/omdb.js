@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '6b843d0a';
+const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 const BASE_URL = 'https://www.omdbapi.com/';
 
 export const searchMovies = async (query, type = '', year = '') => {
